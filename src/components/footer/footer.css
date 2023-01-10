@@ -1,0 +1,45 @@
+.footerT{
+    background-color: #151531;
+    display: flex;
+    height: 500px;
+}
+
+.wrapper-footer{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+.footer-box1 p{
+    color: white;
+}
+.footer-box1 a{
+    margin-left: 10px;
+}
+
+.footer-box1 {
+    width: 1000px;
+    flex: 2;
+}
+
+.footer-box2{
+    flex: 1;
+    display: flex;
+}
+
+.footer-box2 a{
+    color: #FFFAFF;
+    text-decoration: none;
+}
+.box2-ele1 {
+    margin-left: 10px;
+}
+.box2-ele2 {
+    margin-right: 10px;
+
+}
+
+.box2-ele h3{
+    color: white;
+}

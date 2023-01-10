@@ -1,0 +1,19 @@
+.pc-all{
+    margin: 100px;
+}
+.wrapper-pc{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.pc-elem{
+    flex: 1;
+}
+
+.wrapper-pc h1{
+    line-height: 15px;
+}
+.wrapper-pc p{
+    line-height: 5px;
+    color: #151531CC;
+}

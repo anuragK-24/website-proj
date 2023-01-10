@@ -1,0 +1,22 @@
+.wrapper-pe{
+    margin: 100px;
+    display: flex;
+}
+
+.wrapper-pe h1{
+    line-height: 15px;
+}
+.wrapper-pe p{
+    line-height: 5px;
+    color: #151531CC;
+}
+.pe-elem{
+    flex: 1;
+}
+
+.box1-elem{
+    height: 180px;
+    width: 250px;
+    background-color: black;
+    margin: 10px;
+}
