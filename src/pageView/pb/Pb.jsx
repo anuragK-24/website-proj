@@ -3,11 +3,13 @@ import Pt from "./../../itemImg/purple.png"
 export default function pb() {
   return (<>
     <center>
-      <p className="heading">Supercharge your</p>
-      <p className="heading">workflow to get started</p>
+      <div className="heading">
+       <h4> Supercharge your workflow to get started</h4>
+      </div>
 
-      <p className="af-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p className="af-heading "> Suspendisse varius enim in eros elementum tristique</p>
+      <p className="af-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       Suspendisse varius enim in eros elementum tristique</p>
+      
     </center>
     <div className="wrapper-workflow">
       <div className="workflow">

@@ -1,8 +1,7 @@
-.heading{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 30px;
+.heading h4{
+    font-size: 50px;
+    line-height: 50px;
+    width: 400px;
 }
 
 .af-heading{
@@ -27,4 +26,29 @@
     border-radius: 30px;
     
     background-color: #f1ebf1;
+}
+
+@media only screen and (min-width:200px) and (max-width:700px) {
+    .heading h4{
+        font-size: 40px;
+        width:80%;
+        margin: 20px;
+    }
+    .af-heading{
+        width: 90%;
+        line-height:15px;
+    }
+    .wrapper-workflow{
+        display: inline;
+    }
+    .workflow{
+        margin: 30px;
+        height: ;
+    }
+    .workflow h1,p,img{
+        margin: 10px;
+    }
+    .workflow p{
+        padding-bottom: 20px;
+    }
 }

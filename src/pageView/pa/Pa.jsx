@@ -9,23 +9,23 @@ import Gt from "./../../itemImg/green.png"
 
 export default function P1() {
   return (<>
-  <div className="slogan">
-    <center>
-      <h1>Save more get your</h1>
-      <h1>finance right</h1>
-      <p>Orci molestie nam vulputate nunc habitant gravida. Interdum </p>
-      <p>vitae vivamus ipsum aliquet consectetur aliquam.</p>
+  <center>
+    <div className="slogan">
+    
+      <div className="slogan-header">
+      <h1>Save more get your finance right</h1>
+      <p>Orci molestie nam vulputate nunc habitant gravida. Interdum vitae vivamus ipsum aliquet consectetur aliquam.</p>
+      </div>
       <button className='req-demo'>Request a demo</button>
-    </center>
-  </div>
+    </div>
+  </center>
   <img className="first-item" src={First} alt="" />
   <center>
     <p className="trusted">Trusted and loved by the world’s best teams</p>
-    <img style={{marginTop:"20px", marginBottom:"80px"}} src={Sec} alt="" />
+    <img  className="sec"  src={Sec} alt="" />
     <div className="overview">
         <div className="overview-h">
-          <h1>A nice and simple</h1>
-          <h1> financial overview</h1>
+          <h1>A nice and simple financial overview</h1>
         </div>
     
         <div className="overview-p">

@@ -1,10 +1,20 @@
 .slogan{
     margin: 130px;
+    width: 300px;
 }
 .slogan p {
+    line-height: 15px;
+}
+.trusted h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 30px;
+}
+
+.trusted p {
     line-height: 7px;
 }
-.slogan h1{
+.trusted h1{
     font-weight: 700;
     font-size: 60px;
     line-height: 30px;
@@ -94,4 +104,57 @@
 }
 .gtick-box{
     margin-left: 30px;
+}
+
+.sec{
+    margin-top: "20px";
+     margin-bottom:"80px";
+     content: "cover";
+}
+
+@media only screen and (min-width:200px) and (max-width:700px) {
+    .slogan{
+    margin: 10px;
+    width: 70%;
+    }
+    .req-demo{
+        margin-bottom: 40px;
+    }
+    .first-item {
+        width:90%;
+        margin-left: 10px;
+    }
+
+    .sec {
+        margin-top: "10px";
+        width: 90%;
+    }
+    .overview{
+        width: 80%;
+        height: 600px;
+    }
+    .overview-h{
+        margin-top: 20px;
+    }
+    .overview-h h1{
+        margin-top: -20px;
+        line-height: 30px;
+    }
+    .overview-p{
+        width: 80%;
+    }
+    .overview-items{
+        display: inline;     
+    }
+    .overview-box1,.overview-box2,.overview-box3{
+        flex: none;
+    }
+    .ptick-wrapper{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .gtick-wrapper{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
 }
