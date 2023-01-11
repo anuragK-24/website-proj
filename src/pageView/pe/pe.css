@@ -115,5 +115,7 @@
     .box1-elem,.box2-elem{
         height: 200px;
     }
-    
+    .wrapper-reviews{
+        display: inline;
+    }
 }
