@@ -84,12 +84,9 @@ export default function Pe() {
 
     <div className='wrapper-pe'>
       <div className="pe-elem">
-        <h1>Building a powerful</h1> 
-        <h1>website for your</h1>
-        <h1>startup</h1>
-        <p>Orci molestie nam vulputate nunc habitant </p>
-        <p>gravida. Interdum vitae vivamus ipsum aliquet </p>
-        <p>consectetur aliquam.</p> <br />
+        <h1>Building a powerful website for your startup</h1> 
+        <p>Orci molestie nam vulputate nunc habitant gravida. Interdum vitae vivamus ipsum aliquet consectetur aliquam.</p>
+       <br />
         <button className="get-started">Read more</button>
       </div>
       <div className="pe-elem">
