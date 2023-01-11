@@ -17,6 +17,93 @@
 .box1-elem{
     height: 180px;
     width: 250px;
-    background-color: black;
+    background-color: rgb(170, 108, 152);
     margin: 10px;
+    border-radius: 30px ;
+}
+.box1-elem p{
+    line-height: 15px;
+    font-size: 14px;
+    margin-left:15px ;
+}
+
+.box1-elem h3 {
+    margin-left: 15px;
+}
+
+.box2-elem{
+    height: 180px;
+    width: 250px;
+    background-color: rgb(170, 108, 152);
+    margin: 10px;
+    border-radius: 30px ;
+}
+.box2-elem p{
+    line-height: 15px;
+    font-size: 14px;
+    margin-left:15px ;
+}
+
+.box2-elem h3 {
+    margin-left: 15px;
+}
+.pe-box2{
+    display: flex;
+    margin-top: 30%;
+}
+
+.plans{
+    border-radius: 18px;
+    background-color: #151531CC;
+    padding: 15px 22.9375px 14.7969px 23px;   
+    width: 200px;
+    height: 50.8px;
+    border: 1px solid white;
+    border-radius: 16px;
+    color: white;
+    margin-left:20px ;
+}
+
+.get-started-now{
+    padding: 14px 14.5469px 13.7969px 14px;
+    border-color: #9D0AFF;
+    width: 126.55px;
+    height: 48.8px;
+    color: white;
+    background: #9D0AFF;
+    border-radius: 16px;
+    margin-right:10px ;
+}
+.overview-items-other{
+
+}
+
+.review-header{
+    width: 400px;
+    margin-left:100px ;
+}
+
+.wrapper-reviews{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50PX;
+}
+.review{
+    background-color: antiquewhite;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.stars{
+    margin-left: 15px;
+}
+
+.review h3{
+    margin-left: 15px;
+}
+.review p{
+    margin-left: 15px;
+
 }

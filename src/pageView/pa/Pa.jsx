@@ -29,8 +29,7 @@ export default function P1() {
         </div>
     
         <div className="overview-p">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p> Suspendisse varius enim in eros elementum tristique.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
         </div>
         <div className="overview-items">
           <div className="overview-box1">
